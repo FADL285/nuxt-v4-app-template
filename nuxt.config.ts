@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     apiUrl: ""
   },
 
-  modules: ["@nuxt/ui", "@nuxt/icon", "@nuxt/eslint"],
+  modules: ["@nuxt/ui", "@nuxt/icon", "@nuxt/image", "@nuxt/eslint"],
 
   css: ["~/assets/css/main.css"],
 
