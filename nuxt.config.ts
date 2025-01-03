@@ -7,6 +7,10 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+  runtimeConfig: {
+    apiUrl: ""
+  },
+
   modules: ["@nuxt/ui", "@nuxt/icon", "@nuxt/eslint"],
 
   css: ["~/assets/css/main.css"],
